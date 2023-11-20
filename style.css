@@ -1,0 +1,72 @@
+html, body{
+    height:100% ;
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+header{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+}
+
+article{
+    background-color:#faccff;
+    text-align: center;
+    width: 350px;
+    height: 920px;  
+}
+
+h1{
+    font-family: 'Agbalumo';
+    font-weight: 100;
+    color:#7c127d;
+    text-align: center;
+    font-size: 50px;
+}
+img{
+    border-radius: 10px;
+    border-style:ridge;
+    border-width: 10px;
+    border-color:#b50fbc;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    font-family: inter;
+}
+p{
+    display: flex;
+    align-items: space-around;
+    font-family: Inter;
+    font-size: 20px;
+    color: #7c127d;
+    padding:30px;
+    line-height: 1.5em;
+}
+button{
+    border-radius: 6px;
+    border-style: groove;
+    border-color: #7c127d;
+    width: 100px;
+    height: 50px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+button:first-child{
+    background-color:#b50fbc;
+    color:#fdf6fd;
+}
+button:last-child{
+    color:#7c127d;
+    background-color:#fff3ff;
+}
+button:first-child:hover {
+    color:#faccff;
+    background-color:#7e2a79;
+}
+button:last-child:hover{
+    color:#fef5fe;
+    background-color:#430f3e;
+}
